@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockeys World</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container mx-auto">
+            <!-- navvar -->
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class=" md:hidden bg-base-100">
+                        <div class="navbar-start">
+                            <div class="dropdown">
+                                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                                </div>
+                                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li><a>Home</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Pages</a></li>
+                                    <li><a>Blogs</a></li>
+                                    <li><a>Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn btn-ghost font-bold text-3xl">Hockey<span class="text-orange-600">'</span>s</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="text-orange-600"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-3">
+                    <div class="hidden md:block">
+                        <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
+                    </div>
+                    <a class="btn bg-orange-600"> Get Ticket</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- banner  -->
+        <div class="w-[98%] mx-auto relative">
+            <div class="carousel w-full lg:h-[80vh]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div class="absolute flex gap-x-2 transform -translate-y-1/2 left-5 right-5 top-[85%]">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/4.png" class="w-full" />
+                    <div class="absolute flex gap-x-2 transform -translate-y-1/2 left-5 right-5 top-[85%]">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full md:w-[400px] bg-black text-white text-center px-4 py-6 rounded-xl md:absolute bottom-10 right-10">
+                <h1 class="text-lg md:text-xl font-bold my-2">Meet all the heroes from the field</h1>
+                <p class="text-xs md:text-sm text-gray-400">
+                    In the ethereal twilight, fireflies illuminate the meadow, dancing with enchanting grace, casting a magical spell.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="club" class="text-center mt-7">
+        <h1 class="text-center font-bold text-xl md:text-3xl mb-2 md:mb-3">
+            Professional Hockeys Club
+        </h1>
+        <p class="text-xs md:text-sm w-[95%] md:w-[70%] mx-auto mb-8">
+            A club is a social group where individuals gather for shared interests, activities, or experiences, fostering community and connections or experiences, fostering community and connections.
+        </p>
+        <div class="px-2 mx-auto grid grid-cols-1 gap-4 lg:grid-cols-4 md:grid-cols-2">
+            <div>
+                <div class="card w-full md:w-76 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-primary" style="--value: 70" role="progressbar">
+                            70%
+                        </div>
+                    </figure>
+                    <div class="card-body items-center text-center pb-12">
+                        <h2 class="card-title mb-2">Prayer Facility</h2>
+                        <p>
+                            Exploring new horizons, embracing challenges, and finding joy in everyday moments fuels my journey.
+                        </p>
+                        <!-- <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
+              </div> -->
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card w-full md:w-76 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-red-800" style="--value: 70" role="progressbar">
+                            75%
+                        </div>
+                    </figure>
+                    <div class="card-body items-center text-center pb-12">
+                        <h2 class="card-title mb-2">Experienced Coach</h2>
+                        <p>
+                            Exploring new horizons, embracing challenges, and finding joy in everyday moments fuels my journey.
+                        </p>
+                        <!-- <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
+              </div> -->
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card w-full md:w-76 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-fuchsia-600" style="--value: 70" role="progressbar">
+                            80%
+                        </div>
+                    </figure>
+                    <div class="card-body items-center text-center pb-12">
+                        <h2 class="card-title mb-2">Training Ground</h2>
+                        <p>
+                            Exploring new horizons, embracing challenges, and finding joy in everyday moments fuels my journey.
+                        </p>
+                        <!-- <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
+              </div> -->
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card w-full md:w-76 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-yellow-500" style="--value: 70" role="progressbar">
+                            65%
+                        </div>
+                    </figure>
+                    <div class="card-body items-center text-center pb-12">
+                        <h2 class="card-title mb-2">Senior Player</h2>
+                        <p>
+                            Exploring new horizons, embracing challenges, and finding joy in everyday moments fuels my journey.
+                        </p>
+                        <!-- <div class="card-actions">
+                <button class="btn btn-primary">Buy Now</button>
+              </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="program" class="text-center mt-12 lg:mt-20">
+        <h1 class="text-center font-bold text-xl md:text-3xl mb-2 md:mb-3">
+            Program Sections
+        </h1>
+        <p class="text-xs md:text-sm w-[95%] md:w-[70%] mx-auto mb-8">
+            A club is a social group where individuals gather for shared interests, activities, or experiences .
+        </p>
+    </div>
+    <div class="px-2" id="testimornial">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            <!-- First div -->
+            <div class="bg-cover bg-center bg-contain h-64 sm:h-64 md:h-96 relative" style="background-image: url('./Images/2.png')">
+                <div class="absolute bottom-0 left-0 p-8">
+                    <h1 class="text-white text-4xl sm:text-4xl lg:text-7xl font-bold mb-2">
+                        Junior Program
+                    </h1>
+                    <p class="text-gray-200 w-[98%] sm:w-[85%] text-sm sm:text-xl">
+                        "Infinite possibilities await those who embrace curiosity and persist with determination in life's journey, Amidst chaos, find serenity."
+                    </p>
+                    <button class="btn border-0 text-white text-xl bg-orange-600 mt-2">
+              Resister Now
+            </button>
+                </div>
+            </div>
+
+            <!-- Second div -->
+            <div class="bg-cover bg-center bg-contain h-64 sm:h-64 md:h-96 relative" style="background-image: url('./Images/4.png')">
+                <div class="absolute bottom-0 left-0 p-8">
+                    <h1 class="text-white text-4xl sm:text-4xl lg:text-7xl font-bold mb-2">
+                        Teenager Program
+                    </h1>
+                    <p class="text-gray-200 w-[98%] sm:w-[85%] text-sm sm:text-xl">
+                        "Infinite possibilities await those who embrace curiosity and persist with determination in life's journey, Amidst chaos, find serenity."
+                    </p>
+                    <button class="btn border-0 text-white text-xl bg-orange-600 mt-2">
+              Resister Now
+            </button>
+                </div>
+            </div>
+
+            <!-- Third div with md:col-span-2 class -->
+            <div class="bg-cover bg-center bg-contain h-64 sm:h-64 md:h-96 relative sm:col-span-2" style="background-image: url('./Images/3.png')">
+                <div class="absolute bottom-0 left-0 p-8">
+                    <h1 class="text-white text-4xl sm:text-4xl lg:text-7xl font-bold mb-2">
+                        Professional Program
+                    </h1>
+                    <p class="text-gray-200 w-[98%] sm:w-[85%] text-sm sm:text-xl">
+                        "Infinite possibilities await those who embrace curiosity and persist with determination in life's journey, Amidst chaos, find serenity."
+                    </p>
+                    <button class="btn border-0 text-white text-xl bg-orange-600 mt-2">
+              Resister Now
+            </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="products" class="text-center mt-7">
+        <h1 class="text-center font-bold text-xl md:text-3xl mb-2 md:mb-3">
+            Program Sections
+        </h1>
+        <p class="text-xs md:text-sm w-[85%] md:w-[70%] mx-auto mb-8">
+            A club is a social group where individuals gather for shared interests, activities, or experiences .
+        </p>
+        <div id="productGrid" class="px-2">
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
+
+                <div class="grid-item ">
+
+                    <div class="card flex flex-col sm:flex-col  lg:flex-row card-side bg-base-100 shadow-xl pl-1 ">
+                        <figure>
+                            <img class="w-full h-full" src="./Images/5.png" />
+                        </figure>
+                        <div class="card-body text-left">
+                            <div class="flex items-center justify-start text-gray-600 gap-2">
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid text-orange-500 fa-star"></i>
+                                    <p>5.00</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title">World Cup Flags Football</h2>
+                            <p>
+                                Adapt, grow, persevere; thrive in challenges, seek possibilities.
+                            </p>
+                            <div class="flex items-center mt-2 gap-2">
+                                <h1 class="text-red-600 font-bold">Price:- $22.00</h1>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee:Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item ">
+
+                    <div class="card flex flex-col sm:flex-col  lg:flex-row card-side bg-base-100 shadow-xl pl-1 ">
+                        <figure>
+                            <img class="w-full h-full" src="./Images/6.png" />
+                        </figure>
+                        <div class="card-body text-left">
+                            <div class="flex items-center justify-start text-gray-600 gap-2">
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid text-orange-500 fa-star"></i>
+                                    <p>5.00</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title"> Cup Flags </h2>
+                            <p>
+                                Adapt, grow, persevere; thrive in challenges, seek possibilities.
+                            </p>
+                            <div class="flex items-center mt-2 gap-2">
+                                <h1 class="text-red-600 font-bold">Price:- $22.00</h1>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee:Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item ">
+
+                    <div class="card flex flex-col sm:flex-col  lg:flex-row card-side bg-base-100 shadow-xl pl-1 ">
+                        <figure>
+                            <img class="w-full h-full" src="./Images/7.png" />
+                        </figure>
+                        <div class="card-body text-left">
+                            <div class="flex items-center justify-start text-gray-600 gap-2">
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid text-orange-500 fa-star"></i>
+                                    <p>5.00</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title">World Flags </h2>
+                            <p>
+                                Adapt, grow, persevere; thrive in challenges, seek possibilities.
+                            </p>
+                            <div class="flex items-center mt-2 gap-2">
+                                <h1 class="text-red-600 font-bold">Price:- $22.00</h1>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee:Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item ">
+
+                    <div class="card flex flex-col sm:flex-col  lg:flex-row card-side bg-base-100 shadow-xl pl-1 ">
+                        <figure>
+                            <img class="w-full h-full" src="./Images/8.png" />
+                        </figure>
+                        <div class="card-body text-left">
+                            <div class="flex items-center justify-start text-gray-600 gap-2">
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid text-orange-500 fa-star"></i>
+                                    <p>5.00</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title"> Adidas Flags Football</h2>
+                            <p>
+                                Adapt, grow, persevere; thrive in challenges, seek possibilities.
+                            </p>
+                            <div class="flex items-center mt-2 gap-2">
+                                <h1 class="text-red-600 font-bold">Price:- $22.00</h1>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee:Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item ">
+
+                    <div class="card flex flex-col sm:flex-col  lg:flex-row card-side bg-base-100 shadow-xl pl-1 ">
+                        <figure>
+                            <img class="w-full h-full" src="./Images/9.png" />
+                        </figure>
+                        <div class="card-body text-left">
+                            <div class="flex items-center justify-start text-gray-600 gap-2">
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid text-orange-500 fa-star"></i>
+                                    <p>5.00</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title">World Cup </h2>
+                            <p>
+                                Adapt, grow, persevere; thrive in challenges, seek possibilities.
+                            </p>
+                            <div class="flex items-center mt-2 gap-2">
+                                <h1 class="text-red-600 font-bold">Price:- $22.00</h1>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee:Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item ">
+
+                    <div class="card flex flex-col sm:flex-col  lg:flex-row card-side bg-base-100 shadow-xl pl-1 ">
+                        <figure>
+                            <img class="w-full h-full" src="./Images/10.png" />
+                        </figure>
+                        <div class="card-body text-left">
+                            <div class="flex items-center justify-start text-gray-600 gap-2">
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid text-orange-500 fa-star"></i>
+                                    <p>5.00</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title">Puma Football</h2>
+                            <p>
+                                Adapt, grow, persevere; thrive in challenges, seek possibilities.
+                            </p>
+                            <div class="flex items-center mt-2 gap-2">
+                                <h1 class="text-red-600 font-bold">Price:- $22.00</h1>
+                                <div class="flex items-center gap-1">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <p>Delivery Fee:Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div id="clients" class="text-center mt-9">
+        <h1 class="text-center font-bold text-xl md:text-3xl mb-2 md:mb-3">
+            Client's Question</h1>
+
+        <p class="text-xs md:text-sm w-[95%] md:w-[70%] mx-auto mb-8">
+            A club is a social group where individuals gather for shared interests, activities, or experiences, fostering community and connections or experiences.
+        </p>
+        <!-- work on this -->
+        <div id="questionSection" class="p-4    border  grid grid-cols-1 lg:grid-cols-2">
+            <div id="questionImg" class="grid-item  md:p-4     lg:col-span-1">
+                <img class="w-full lg:h-[500px] " src="./Images/11.png" alt="">
+            </div>
+            <div id="question" class="grid-item flex flex-col items-center justify-evenly lg:col-span-1">
+                <div class="collapse collapse-plus  text-left ">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">
+                        Our Equipments
+                    </div>
+                    <div class="collapse-content text-left">
+                        <p class="text-left">"Infinite whispers of curiosity ignite minds; explore, evolve, create anew. A line, often used as a design element, adds visual structure. Whether horizontal or vertical, it guides the eye, separates content, and contributes to
+                            a balanced and aesthetically pleasing layout."</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus  text-left ">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Hockey Training
+                    </div>
+                    <div class="collapse-content">
+                        <p>"Infinite whispers of curiosity ignite minds; explore, evolve, create anew. A line, often used as a design element, adds visual structure. Whether horizontal or vertical, it guides the eye, separates content, and contributes to
+                            a balanced and aesthetically pleasing layout.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus  text-left ">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Previous Lessons
+                    </div>
+                    <div class="collapse-content">
+                        <p>"Infinite whispers of curiosity ignite minds; explore, evolve, create anew. A line, often used as a design element, adds visual structure. Whether horizontal or vertical, it guides the eye, separates content, and contributes to
+                            a balanced and aesthetically pleasing layout.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus  text-left ">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Ski Touring
+                    </div>
+                    <div class="collapse-content">
+                        <p>
+                            "Infinite whispers of curiosity ignite minds; explore, evolve, create anew. A line, often used as a design element, adds visual structure. Whether horizontal or vertical, it guides the eye, separates content, and contributes to a balanced and aesthetically
+                            pleasing layout.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus  text-left ">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Booking
+                    </div>
+                    <div class="collapse-content">
+                        <p>
+                            "Infinite whispers of curiosity ignite minds; explore, evolve, create anew. A line, often used as a design element, adds visual structure. Whether horizontal or vertical, it guides the eye, separates content, and contributes to a balanced and aesthetically
+                            pleasing layout.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus  text-left ">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        Pricings
+                    </div>
+                    <div class="collapse-content">
+                        <p>
+                            "Infinite whispers of curiosity ignite minds; explore, evolve, create anew. A line, often used as a design element, adds visual structure. Whether horizontal or vertical, it guides the eye, separates content, and contributes to a balanced and aesthetically
+                            pleasing layout."</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="form" class="text-center mt-10">
+        <h1 class="text-center font-bold text-xl md:text-3xl mb-2 md:mb-3">
+            Get In Touch</h1>
+
+        <p class="text-xs md:text-sm w-[95%] md:w-[70%] mx-auto mb-8">
+            A club is a social group where individuals gather for shared interests, activities, or experiences, fostering community and connections or experiences.
+        </p>
+        <div id="formMain">
+            <div class="grid grid-cols-1 md:grid-cols-2 pl-0 md:pl-1 ">
+
+                <div class="grid-item text-left   md:col-span-1  border p-4">
+                    <div class="  w-full h-[160px] rounded-xl flex flex-col items-start justify-center gap-3 p-6 bg-[#bced6e1a] ">
+                        <img class="w-[50px] h-[50px] " src="./Images/Group 1171275317.png" alt="">
+                        <p class="text-xs md:text-sm text-gray-600">Phone Number</p>
+                        <h2 class="text-xl md:text-xl font-bold">(+880) 1799-532172</h2>
+                    </div>
+                    <div class="  my-3 w-full h-[160px] rounded-xl flex flex-col items-start justify-center gap-3 p-6 bg-[#fddb5f1a] ">
+                        <img class="w-[50px] h-[50px] " src="./Images/Group 1171275318.png" alt="">
+                        <p class="text-xs md:text-sm text-gray-600">Email: mdimam.cse9.bu@gmail.com</p>
+                        <h2 class="text-xl md:text-xl font-bold">(+62) 123-321-546</h2>
+                    </div>
+                    <div class="  w-full h-[160px] flex rounded-xl flex-col items-start justify-center gap-3 p-6 bg-[#629cf31a] ">
+                        <img class="w-[50px] h-[50px] " src="./Images/Group 1171275321.png" alt="">
+                        <p class="text-xs md:text-sm text-gray-600">Location</p>
+                        <h2 class="text-xl md:text-xl font-bold"> 152/1 Mohakhali Wireless Gate</h2>
+                    </div>
+                </div>
+                <div id="mainForm" class="grid-item  flex items-center justify-center text-left md:col-span-1">
+                    <form class="w-full  pl-0 md:pl-2  gap-4">
+                        <div class="flex flex-wrap md:-mx-3 sm:mx-1 mb-6">
+                            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                            Name
+                        </label>
+                                <input class="appearance-none block w-full bg-gray-200 text-gray-700   rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Your Name">
+                                <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+
+                            </div>
+                            <div class="w-full md:w-1/2 px-3">
+                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                          Email
+                        </label>
+                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="email" placeholder="Your email">
+                            </div>
+                            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                            Subject
+                        </label>
+                                <input class="appearance-none block w-full bg-gray-200 text-gray-700   rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Your Subject">
+
+                            </div>
+                            <div class="w-full md:w-1/2 px-3">
+                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                          Phone Number
+                        </label>
+                                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="email" placeholder="Your phone number">
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap md:-mx-3 sm:mx-1 mb-6">
+                            <div class="w-full px-3">
+                                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                                Message
+                              </label>
+                                <!-- <textarea name="" id=""></textarea> -->
+                                <textarea cols="30" rows="10" class="appearance-none block w-full  bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="email" placeholder="Your message"></textarea>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap md:-mx-3 sm:mx-1 mb-6">
+                            <div class="w-full px-3">
+                                <button class="btn w-full bg-orange-600 text-white font-bold text-2xl">Submit Message</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <div id="socialMedia" class="mt-10   mx-2  py-6 rounded-lg bg-gray-300 opacity-3 flex flex-col justify-center items-center">
+        <h1 class="font-bold text-4xl">Social Media</h1>
+        <div class="mt-2 font-bold text-3xl gap-3 flex justify-center items-center ">
+            <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+    <div id="footer" class=" bg-black mt-12 text-gray-400">
+        <footer class="footer  p-10  container mx-auto ">
+            <div>
+                <aside class="flex flex-col items-center text-center justify-center md:text-left md:justify-start md:items-start">
+                    <h1 class="text-3xl my-2 text-white text-left font-bold">Get In Touch</h1>
+
+                    <p class="w-[95%] md:w-[85%]   mt-2">
+                        A line, often used as a design element, adds visual structure. Whether horizontal or vertical.</p>
+                    <div class="mt-2  ">
+                        <div class="flex items-center md:justify-start justify-center  gap-2 text-sm sm:text-xl"><i class="fa-solid fa-phone text-red-600"></i>
+                            <p>+880 1799532172</p>
+                        </div>
+                        <div class="flex items-center  md:justify-start justify-center  gap-2 text-sm sm:text-xl md:text-xl"><i class="fa-regular text-red-600 fa-envelope"></i>
+                            <p>mdimam.cse9.bu@gmail.com</p>
+                        </div>
+
+                    </div>
+                </aside>
+            </div>
+            <div class="flex md:justify-start gap-10 text-center lg:text-left w-full justify-center items-start   md:items-center  md:gap-10 lg:gap-20 xl:gap-40">
+                <nav class="flex flex-col gap-1">
+                    <header class=" text-xl font-bold text-white">Services</header>
+                    <a class="link link-hover">Branding</a>
+                    <a class="link link-hover">Design</a>
+                    <a class="link link-hover">Marketing</a>
+                    <a class="link link-hover">Advertisement</a>
+                </nav>
+                <nav class="flex flex-col gap-1">
+                    <header class=" text-xl font-bold text-white">Company</header>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                </nav>
+            </div>
+            <div class="flex justify-center sm:items-center lg:text-left w-full text-center">
+
+                <nav class="flex flex-col    gap-1">
+                    <header class="text-xl font-bold text-white">Legal</header>
+                    <a class="link link-hover">Terms of use</a>
+                    <a class="link link-hover">Privacy policy</a>
+                    <a class="link link-hover">FAQ</a>
+                    <a class="link link-hover">Cookie policy</a>
+                </nav>
+
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/6fe2253753.js " crossorigin="anonymous "></script>
+    <script src="https://cdn.tailwindcss.com "></script>
+</body>
+
+</html>
